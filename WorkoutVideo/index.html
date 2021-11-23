@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <link rel="stylesheet" href="style.css">
+    </head>
+    <body>
+        
+        <div class = "video-container">
+            <div class = "left">
+                <div class ="video-player">
+                
+                    <video src="" class="video" muted>\</video>
+        
+                    <div class="controls">
+                        <div class="buttons">
+                            <button id="restart-video"></button>
+                            <button id="play-pause"></button>
+                            <button id="next-video"></button>
+                        </div>
+                    </div>
+                </div>
+                <h1 id = "description">This is some description that should be shown</h1>
+                <button id="back">Back</button>
+                <button id="done">Finished Rep</button>
+            </div>
+            <div class= "music">
+                <iframe allow="autoplay *; encrypted-media *;" frameborder="0" height="450" style="width:100%;max-width:660px;overflow:hidden;background:transparent;" sandbox="allow-forms allow-popups allow-same-origin allow-scripts allow-storage-access-by-user-activation allow-top-navigation-by-user-activation" src="https://embed.music.apple.com/ca/playlist/throwbacks/pl.u-b3b88Z3FyzZzZ1"></iframe>
+                <div id = "app"></div>
+            </div>
+            
+        </div>
+        <audio src="321.mp3" id = "321"></audio>
+       
+        <script src ="timer.js"></script>
+        <script src="scripts.js"></script> 
+    </body>
+
+</html>
